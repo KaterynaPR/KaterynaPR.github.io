@@ -1,0 +1,110 @@
+@import url(reset.css);
+/*body*/
+body{
+	background-color:#E6E6DF;
+	font-family: "Open Sans", sans-serif;
+}
+.main_page{
+	background-color: white;
+	width: 1000px;
+	height: 800px;
+	margin: 0px auto;
+	padding: 40px 40px;
+	box-shadow: 0px 0px 10px #B5B4B4;
+}
+
+/*heater*/
+h1{
+	font-size: 50px;
+	display: inline-block;
+}
+
+.menu{
+    background: linear-gradient(to top,  #474646, #767676);
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+.menu li{
+    display: inline-block;
+    padding: 9px 30px; /*поле вокруг текста*/
+    margin: 0px 10px; /*расстояние между кнопками*/
+ }
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF; 
+ }
+.menu li:hover{ 
+   	background-color: #353535;
+   	border-left: 1px solid #838383;
+   	border-right: 1px solid #838383;
+ }
+/*aside*/
+.sitebar{
+    width: 345px;
+    float: left;
+    list-style-type: none;
+    background-color: white;
+    text-decoration: none;
+}
+.sitebar li{
+    display: block;
+    border: 1px solid  #c8c8c8;
+    height: 22px;
+    width: 235px;
+    padding: 10px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt; 
+}
+.sitebar a{
+	display: block;
+    text-decoration: none;
+    color: #656363; 
+} 
+.sitebar a:hover{ 
+	padding-left: 12px; /*сдвиг вправо*/
+	color: black;
+}
+.sitebar li:hover{ 
+	background-color: #f9f9f9; /*фон кнопки*/
+}
+article{
+	margin-top: 0px;
+	margin-left: 345px;
+	width: 650px;
+	height: 375px;
+	border: 1px solid #c8c8c8;
+}
+article p{
+	display: block;
+  	font-size: 10pt;
+  	line-height: 20px;
+  	margin-top:34px;
+  	margin-left: 10px;
+  	width: 640px;
+  	color: #2c2c2c;
+}
+
+footer{
+    background: #e1e1e1;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 200px;
+ }
+ /*footer*/
+.footer li{
+    display: inline-block;
+    padding: 9px 30px; /*поле вокруг текста*/
+    margin: 0px 10px; /*расстояние между кнопками*/
+ }
+.footer a{
+    text-decoration: none;
+    color: black; 
+ }
+.footer a:hover{
+	text-decoration: underline;
+}
+#reser{
+	margin-left: 64px;
+}
