@@ -11,7 +11,7 @@ body{
   }
   .main-page{
     background-color:white;
-    height:940px;
+    height:955px;
     width:1000px;
     margin: 0px auto 25px;
     box-shadow: 0px 10px 25px 1px #031d28;
@@ -38,12 +38,12 @@ body{
     color: #128aa7;
   }
   h1{
-    font-size: 15px;
+    font-size: 12pt;
     font-weight: bold;
     margin-bottom: 10px;
   }
   p{
-    font-size: 15px;
+    font-size: 11pt;
     padding-bottom: 3px;
   }
   .country{
@@ -62,19 +62,20 @@ body{
   }
   .country a{
     color: #128aa7;
-    font-size: 11px;
+    font-size: 8pt;
   }
   
 
 /*menu*/
-ul{
-    display: block;
+.menu{
+    /*display: block;*/
     margin-left: 0px;
     padding-left: 0px;
     list-style: none;
     border-bottom: 1px solid black;
     box-shadow: 0px 2px 10px 1px #555555;
     background-color: #323232;
+    margin-bottom: 1px;
 }
 ul:after{
     display: block;
@@ -83,43 +84,40 @@ ul:after{
     float: none;
 }
 
-ul.menu > li{
+.menu li{
     float: left;
     position: relative;
 }
-ul.menu > li > a{
+.menu li a{
     display: block;
-    padding: 7px 33px;
+    padding: 7px 32px;
     color: white;
     background-color: #323232;
     text-decoration: none;
-   
 }
-ul.submenu{
-    display: none;
+.submenu{
+    display: none; 
     position: absolute;
     width: 140px;
     top: 31px;
     left: 23px;
     background-color: white;
-    border: 1px solid #323232;
+    background-color: #323232;
+    box-shadow: 0px 2px 10px 1px #555555;
 }
-ul.submenu > li{
-    display: block;
-}
-ul.submenu > li > a{
+
+.submenu > li > a{
     display: block;
     padding: 5px 10px;
     color: white;
-    background-color: #323232;
     text-decoration: none;
 }
-ul.submenu > li > a:hover{
-    text-decoration: underline;
-}
-ul.menu > li:hover > ul.submenu{
+.menu li:hover .submenu{
     display: block;
 }
+/*.submenu > li{
+    display: block;
+}*/
 /*content*/
 .Container{
   width: 1000px;
@@ -128,38 +126,38 @@ ul.menu > li:hover > ul.submenu{
 }
 .info{
   width: 200px;
-  height: 478px;
+  height: 496px;
   float: left;
   border-right: 1px solid #c7cacf;
   background-color: #edeef0;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 10px;
   }
 .centre{
   width: 550px;
-  height: 478px;
+  height: 496px;
   float: left;
-  padding-top: 15px;
+  padding-top: 10px;
 
 }
 .news{
   width: 200px;
-  height: 478px;
+  height: 496px;
   float: right;
   border-left: 1px solid #c7cacf;
   background-color: #edeef0;
-  padding-top: 15px;
+  padding-top: 10px;
    padding-left: 10px;
 }
 .info h1{
   text-align: center;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 15pt;
 }
 .news h1{
   text-align: center;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 15pt;
 }
 .info p{
   line-height: 1.5;
