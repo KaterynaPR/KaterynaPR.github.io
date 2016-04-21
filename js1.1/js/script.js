@@ -1,7 +1,5 @@
 function pow(a, b) {
     var result = Math.pow(a, b);
-       for (var i = 0; i < b; i++) {
-    }
     return result;
     } 
 var a = prompt("Число", "");
