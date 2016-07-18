@@ -1,4 +1,3 @@
-
 @import url(reset.css);
 body {
   background: #fff;
@@ -173,6 +172,22 @@ header .header__wrapper .header__right .header__login:hover {
   background: #f2f2f2;
   color: #0078d7;
 }
+
+
+header .header__wrapper > ul > li:hover .header__store__down ul li a {
+    display: block;
+}
+header .header__wrapper > ul > li:hover .header__store__down ul li {
+    height: auto;
+}
+
+.header__menu > li:hover li a {
+    display: block!important;
+}
+.header__menu > li:hover li {
+    height: auto!important;
+}
+
 
 /*380*/
 @media screen and (max-width: 380px) {
