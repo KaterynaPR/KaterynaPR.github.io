@@ -65,7 +65,7 @@ header .header__wrapper > ul > li .header__store__down ul li a {
   display: none;
 }
 header .header__wrapper > ul > li .header__store__down ul li img {
-  display: none;
+  display: block;
   margin-top: 20px;
   float: right;
   width: 11px;
